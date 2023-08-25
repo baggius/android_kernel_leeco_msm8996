@@ -18,7 +18,7 @@ jobs:
         path: zipper
 
     - name: Android kernel build
-      uses: lemniskett/android-kernel-actions@master
+      uses: baggius/android-kernel-actions@master
       id: build
       env:
         NAME: leeco-x2

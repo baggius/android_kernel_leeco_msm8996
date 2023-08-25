@@ -21,9 +21,9 @@ jobs:
       uses: lemniskett/android-kernel-actions@master
       id: build
       env:
-        NAME: Dark-Ages-Último
+        NAME: leeco-x2
       with:
         arch: arm64
-        compiler: aosp-clang/master/clang-r498229/binutils
+        compiler: gcc/9
         defconfig: lineage_x2_defconfig
         image: Image.gz-dtb

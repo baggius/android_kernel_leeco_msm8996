@@ -24,6 +24,6 @@ jobs:
         NAME: leeco-x2
       with:
         arch: arm64
-        compiler: gcc/4.11.2.0
+        compiler: gcc/7
         defconfig: lineage_x2_defconfig
         image: Image.gz-dtb

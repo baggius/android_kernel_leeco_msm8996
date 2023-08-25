@@ -24,6 +24,6 @@ jobs:
         NAME: Dark-Ages-Último
       with:
         arch: arm64
-        compiler: gcc/10
+        compiler: aosp-clang/master/clang-r353983c/binutils
         defconfig: lineage_x2_defconfig
         image: Image.gz-dtb

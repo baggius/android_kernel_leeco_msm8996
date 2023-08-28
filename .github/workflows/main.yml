@@ -21,7 +21,7 @@ jobs:
       uses: lemniskett/android-kernel-actions@master
       id: build
       env:
-        NAME: leeco-x2
+        NAME: lineage-18.1-x2-update-kernel-3.18.x-only
       with:
         arch: arm64
         compiler: aosp-clang/android11-release/clang-r365631c/binutils

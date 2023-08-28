@@ -24,6 +24,6 @@ jobs:
         NAME: leeco-x2
       with:
         arch: arm64
-        compiler: gcc
+        compiler: aosp-clang/android11-release/clang-r365631c/binutils
         defconfig: lineage_x2_defconfig
         image: Image.gz-dtb

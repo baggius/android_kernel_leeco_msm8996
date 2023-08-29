@@ -7,7 +7,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions: write-all
+    permissions: 
+      contents: write
     steps:
     - name: Checkout kernel source
       uses: actions/checkout@v2
@@ -19,8 +20,6 @@ jobs:
     - name: Android kernel build
       uses: lemniskett/android-kernel-actions@master
       id: build
-      env:
-        NAME: lineage-18.1-x2-update-kernel-3.18.x-only
       with:
         arch: arm64
         compiler: aosp-clang/android11-release/clang-r365631c/binutils
